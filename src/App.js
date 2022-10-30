@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./Components/NavBar";
+import IpadHero from "./Components/IpadHero";
+import HeroIpadPro from "./Components/HeroIpadPro";
+import HeroIphone14Pro from "./Components/HeroIphone14Pro";
+import HeroGrids from "./Components/HeroGrids";
+import StreamCarousel from "./Components/StreamCarousel";
+import Description from "./Components/Description";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <IpadHero />
+      <HeroIpadPro />
+      <HeroIphone14Pro />
+      <HeroGrids />
+      <StreamCarousel />
+      <Description />
+      <Footer />
+    </>
   );
 }
 
